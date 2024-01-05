@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+body {
+  font-family: Arial, sans-serif;
+  background-image: url(file:///C:/Users/hp/Desktop/doctourimages/photo_2023-01-03_17-59-03.jpg);
+  
+  
+  
+ }
+ 
+ #inscription-form {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+ }
+ 
+ #inscription-form label {
+  display: block;
+  margin-bottom: 5px;
+ }
+ 
+ #inscription-form input[type="email"],
+ #inscription-form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+ }
+ 
+ #inscription-form input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  cursor: pointer;
+ }
+ 
+ #inscription-form input[type="submit"]:hover {
+  background-color: #0056b3;
+ }
